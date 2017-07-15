@@ -1,0 +1,10 @@
+[Unit]
+Description=A userspace gamepad driver
+
+[Service]
+Type=forking
+User=root
+ExecStart=/usr/bin/xboxdrv_connect.sh add logitech_dual_action
+
+[Install]
+WantedBy=multi-user.target

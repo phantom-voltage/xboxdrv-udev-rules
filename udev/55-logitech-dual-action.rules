@@ -1,0 +1,3 @@
+#ACTION=="add", KERNEL=="js[0-9]*", SUBSYSTEM=="input", ATTRS{idVendor}=="0f0d", ATTRS{idProduct}=="0025", RUN+="/bin/rm /dev/input/js%n"
+KERNEL=="event*", SUBSYSTEM=="input", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c216", SYMLINK+="input/logitech_dual_action", ACTION=="add", RUN+="/bin/systemctl start logitech_dual_action"
+KERNEL=="event*", SUBSYSTEM=="input", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="c216", ACTION=="remove", RUN+="/usr/bin/xboxdrv_connect.sh rm logitech_dual_action"
