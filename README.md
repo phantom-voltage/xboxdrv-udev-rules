@@ -32,7 +32,7 @@ manually place the config files and edit the wrapper accordingly.
 Seriously, this controller is amazing. I use it for all my 2d games.
 
 ### Logitech Dual Action (PC, USB) 
-<img src="/img/logitech_dual_action.jpg" width=75%>
+<img src="/img/logitech_dual_action.jpg" width="300">
 
 This controller is pretty cheap. You can often find them at thrift shops.
 
