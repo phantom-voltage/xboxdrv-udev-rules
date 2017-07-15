@@ -26,12 +26,13 @@ manually place the config files and edit the wrapper accordingly.
 
 ## Hardware
 
-
+### Hori Fighting Commander (PS3, USB)
 ![Hori Fighting Commander](/img/hori_fighting_commander.jpg)
 
 Seriously, this controller is amazing. I use it for all my 2d games.
 
-![Logitech Dual Action](/img/logitech_dual_action.jpg)
+### Logitech Dual Action (PC, USB) 
+<img src="/img/logitech_dual_action.jpg" width=75%>
 
 This controller is pretty cheap. You can often find them at thrift shops.
 
